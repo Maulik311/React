@@ -853,6 +853,12 @@ h5.card-title {
     margin-bottom: 25px;
 }
 
+.card {
+    width: 25rem;
+    height: 450px;
+    background-color: #f7f6ee;
+}
+
 .card-img.p-5 {
     padding: 20px;
 }

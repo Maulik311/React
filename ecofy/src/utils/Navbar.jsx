@@ -10,7 +10,12 @@ import Future2 from '../img/about-icon-2.png'
 import Award from '../img/about-award.png'
 import Section from '../img/section-shape.png'
 import Btn from '../img/button-shape.png'
-import Btn1 from '../img/button-shape-2.png'
+import Service from '../img/service-icon1.png'
+import Service1 from '../img/service-1.jpg'
+import Service2 from '../img/service-icon2.png'
+import Service3 from '../img/service-2.jpg'
+import Service4 from '../img/service-icon3.png'
+import Service5 from '../img/service-3.jpg'
 
 
 
@@ -169,7 +174,7 @@ function Navbar() {
                                 <div className="buttons">
                                     <Link to="/" className="btn btn-primary-1">Let's Talk &nbsp;
                                         <span>
-                                            <img src={Btn} alt="image" />
+                                            <img src={Btn} alt="images" />
                                         </span>
                                     </Link>
 
@@ -198,35 +203,35 @@ function Navbar() {
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Environmental
+                                        <img src={Shap} alt="imgs" width="40px" />Environmental
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Ocean-Recycling
+                                        <img src={Shap} alt="imgs" width="40px" />Ocean-Recycling
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Environmental
+                                        <img src={Shap} alt="imgs" width="40px" />Environmental
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Renewable-Energy
+                                        <img src={Shap} alt="imgs" width="40px" />Renewable-Energy
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Ocean-Recycling
+                                        <img src={Shap} alt="imgs" width="40px" />Ocean-Recycling
                                     </span>
                                 </h6>
                             </div>
@@ -235,35 +240,35 @@ function Navbar() {
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Environmental
+                                        <img src={Shap} alt="imgs" width="40px" />Environmental
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Ocean-Recycling
+                                        <img src={Shap} alt="imgs" width="40px" />Ocean-Recycling
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Environmental
+                                        <img src={Shap} alt="imgs" width="40px" />Environmental
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Renewable-Energy
+                                        <img src={Shap} alt="imgs" width="40px" />Renewable-Energy
                                     </span>
                                 </h6>
                             </div>
                             <div className="content-box">
                                 <h6 className="title">
                                     <span>
-                                        <img src={Shap} alt="img" width="40px" />Ocean-Recycling
+                                        <img src={Shap} alt="imgs" width="40px" />Ocean-Recycling
                                     </span>
                                 </h6>
                             </div>
@@ -276,23 +281,23 @@ function Navbar() {
                 <div className="container">
                     <div className="future">
                         <div className="car-image " >
-                            <img src={About} alt="image" />
+                            <img src={About} alt="images" />
                             <div className="award-img">
-                                <img src={Award} alt="image" />
+                                <img src={Award} alt="images" />
                             </div>
                         </div>
                         <div className="about-text">
                             <div className="inner-text1">
-                                <img src={Section} alt="image" />
+                                <img src={Section} alt="images" />
                                 <span className="text-01">About Echofy</span>
                                 <div className="inner-01">
-                                    <img src={About1} alt="image" />
+                                    <img src={About1} alt="images" />
                                 </div>
                             </div>
                             <h1 className="future-text">Environmental Sustainable
                                 Forever Green Future</h1>
                             <div className="inner-text d-flex">
-                                <img src={Future} alt="image" width="40" height="40" />
+                                <img src={Future} alt="images" width="40" height="40" />
                                 <div className="box mx-3">
                                     <div className="text mb-2"> <b> Economic Benifits</b></div>
                                     <div className="text">Alternative innovation after ethical to network environmental whiteboard
@@ -301,7 +306,7 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className="inner-text d-flex">
-                                <img src={Future2} alt="image" width="40" height="40" />
+                                <img src={Future2} alt="images" width="40" height="40" />
                                 <div className="box mx-3">
                                     <div className="text mb-2"><b>Safe Environment</b></div>
                                     <div className="text">Alternative innovation after ethical to network environmental whiteboard
@@ -314,17 +319,87 @@ function Navbar() {
                                 <button className="btn btn-outline ms-4" type="button">
                                     More about
                                     <span>
-                                        <img src={Btn} alt="image" />
+                                        <img src={Btn} alt="images" />
                                     </span>
                                 </button>
                                 <div className="about-shape-2">
-                                    <img src={About2} alt="img" />
+                                    <img src={About2} alt="imgs" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
+            <div className="cover-1 pb-5">
+                <div className="container">
+                    <div className="our-services-outer">
+                        <span className="text-01">
+                            <img src={Section} alt="" />Our Services</span>
+
+                        <div className="our-services-outer-header">
+                            <h2>Echofy Provide Environment
+                                Best Leading Services</h2>
+                        </div>
+                        <div className="our-service-outer-slider border-bottom=20px">
+                            <div className="owl-carousel owl-theme d-flex">
+                                <div className="item ">
+                                    <div className="card width: 25rem; height: 450px;">
+                                        <div className="card-img background-color:#f7f6ee;">
+                                            <img src={Service} className="card-img-top  float-start w-25" alt="images" />
+                                        </div>
+                                        <div className="card-body card-item card-content text-start background-color: #f7f6ee;">
+                                            <h5 className="card-title">Cleaning Ocean</h5>
+                                            <p className="card-text">Alternative innovation to ethical network environmental
+                                                whiteboard transparenes natural to environment</p>
+                                            <div className="service">
+                                                <img src={Service1} alt="images" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="card width: 25rem; height: 450px; background-color: #f7f6ee;">
+                                        <div className="card-img  background-color:#f7f6ee;">
+                                            <img src={Service2} className="card-img-top  float-start  w-25"
+                                                alt="images" />
+                                        </div>
+                                        <div className="card-body text-start background-color: #f7f6ee;">
+                                            <h5 className="card-title">Safe Environment</h5>
+                                            <p className="card-text">Alternative innovation to ethical network environmental
+                                                whiteboard transparenes natural to environment</p>
+                                            <div className="service">
+                                                <img className="service" src={Service3} alt="images" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item ">
+                                    <div className="card width: 25rem; height: 450px; background-color: #f7f6ee;">
+                                        <div className="card-img  background-color: #f7f6ee;">
+                                            <img src={Service4} className="card-img-top float-start  w-25"
+                                                alt="images" />
+                                        </div>
+                                        <div className="card-body text-start background-color:#f7f6ee;">
+                                            <h5 className="card-title">Dirty Recycling</h5>
+                                            <p className="card-text">Alternative innovation to ethical network environmental
+                                                whiteboard transparenes natural to environment</p>
+                                            <div className="service">
+                                                <img className="service" src={Service5} alt="images" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </>
 
