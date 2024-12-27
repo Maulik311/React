@@ -10,6 +10,7 @@ import Future2 from '../img/about-icon-2.png'
 import Award from '../img/about-award.png'
 import Section from '../img/section-shape.png'
 import Btn from '../img/button-shape.png'
+import Btn1 from '../img/button-shape-2.png'
 
 
 
@@ -168,7 +169,7 @@ function Navbar() {
                                 <div className="buttons">
                                     <Link to="/" className="btn btn-primary-1">Let's Talk &nbsp;
                                         <span>
-                                            <img src={Shap} alt="" />
+                                            <img src={Btn} alt="image" />
                                         </span>
                                     </Link>
 
